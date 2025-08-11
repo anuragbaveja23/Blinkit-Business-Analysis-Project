@@ -1,4 +1,4 @@
-# BlinkIT Sales & Outlet Performance Analysis
+# Blinkit Sales & Outlet Performance Analysis
 
 ## 📌 Project Overview
 This project is a complete end-to-end data analytics workflow for analyzing sales performance and outlet insights for BlinkIT (hypothetical dataset).  
