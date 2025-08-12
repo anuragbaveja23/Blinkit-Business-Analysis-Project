@@ -1,7 +1,5 @@
 # BlinkIT Grocery Sales Data Analysis using SQL & Power BI 
-
 ---
-
 ## 📌 Objective
 
 This project analyzes BlinkIT’s grocery sales data to uncover business insights using SQL for data querying and Power BI for visualization.  
