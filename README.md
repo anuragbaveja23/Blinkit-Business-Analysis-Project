@@ -17,8 +17,7 @@ Contains product details, outlet info, and sales data.
 - **Product Insights** – Top sellers, price trends  
 - **Geographic Trends** – City tier sales  
 - **Time Analysis** – Sales by outlet establishment year  
-
-**Preview:**  
+ 
 
 ![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss.png)
 
