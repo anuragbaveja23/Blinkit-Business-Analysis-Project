@@ -19,7 +19,7 @@ The data for this project comes from BlinkIT Grocery Sales records.
 
 ## Power BI Dashboard 
 
-Dashboard File Link: https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/dashboard/Blinkit_Analysis.pbix
+Dashboard File Link: ![Link]https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/dashboard/Blinkit_Analysis.pbix
 
 The data for this project comes from BlinkIT Grocery Sales records.  
 
