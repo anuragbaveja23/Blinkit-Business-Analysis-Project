@@ -37,21 +37,3 @@ SQL • Power BI • CSV
 
 
 
-
-
-
-
-
-## Power BI Dashboard Preview
-
-The Power BI dashboard provides:
-- **Sales Overview** – Total revenue, top categories, outlet performance.
-- **Product Insights** – Top-selling items, price trends.
-- **Geographic Insights** – Sales by city tier and outlet type.
-- **Time Analysis** – Sales trends by outlet establishment year.
-
-
-
----
-
-
