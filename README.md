@@ -19,3 +19,5 @@ The data for this project comes from BlinkIT Grocery Sales records.
 
 ---
 ![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss.png)
+
+![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss1.png)
