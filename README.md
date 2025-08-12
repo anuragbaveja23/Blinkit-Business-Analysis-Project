@@ -17,6 +17,16 @@ The data for this project comes from BlinkIT Grocery Sales records.
 - **SQL File:** `blinkit_data.sql`
 - **Dashboard File:** `Blinkit_Analysis.pbix`
 
+## Power BI Dashboard 
+
+Dashboard File Link: https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/dashboard/Blinkit_Analysis.pbix
+
+The data for this project comes from BlinkIT Grocery Sales records.  
+
+- **Dataset File:** `BlinkIT Grocery Data.csv`
+- **SQL File:** `blinkit_data.sql`
+- **Dashboard File:** `Blinkit_Analysis.pbix`
+
 ---
 ![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss.png)
 
