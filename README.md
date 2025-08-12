@@ -1,74 +1,41 @@
-# Blinkit Sales & Outlet Performance Analysis
+# BlinkIT Grocery Sales Data Analysis using SQL & Power BI
 
-## 📌 Project Overview
-This project is a complete end-to-end data analytics workflow for analyzing sales performance and outlet insights for BlinkIT (hypothetical dataset).  
-It demonstrates how SQL, Python, and Power BI can be combined to extract, clean, and visualize data for actionable business decisions.
+![BlinkIT Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Blinkit_Logo.png/320px-Blinkit_Logo.png)  
 
----
+## Objective
 
-## 🎯 Objectives
-- Identify **top-performing products** and outlets.
-- Understand **sales trends** across locations and years.
-- Evaluate the impact of **item attributes** (e.g., weight, visibility, fat content) on sales.
-- Provide **data-driven recommendations** for improving revenue.
+- Analyze sales performance across product categories.
+- Identify top-selling items and highest revenue generators.
+- Understand pricing trends and customer purchase behavior.
+- Visualize sales insights through an interactive Power BI dashboard.
 
 ---
 
-## 🛠️ Tech Stack
-- **SQL (PostgreSQL/MySQL)** → Data extraction, cleaning, and transformation.
-- **Python (Pandas, NumPy, Matplotlib, Seaborn)** → Data preprocessing & exploratory analysis.
-- **Power BI** → Interactive dashboards and KPI visualization.
+## Dataset
+
+The data for this project comes from BlinkIT Grocery Sales records.  
+
+- **Dataset File:** `BlinkIT Grocery Data.csv`
+- **SQL File:** `blinkit_data.sql`
+- **Dashboard File:** `Blinkit_Analysis.pbix`
 
 ---
 
----
+## Schema
 
-## 📊 Key Steps in Workflow
-
-1. **Data Understanding**
-   - Review dataset columns & data types.
-   - Identify missing or inconsistent values.
-
-2. **Data Cleaning (SQL & Python)**
-   - Handle missing values for `Item Weight`, `Outlet Size`, etc.
-   - Standardize categorical values (`Item_Fat_Content` variations).
-   - Remove duplicates and irrelevant fields.
-
-3. **Exploratory Data Analysis (EDA)**
-   - Analyze sales distribution by location, year, and outlet type.
-   - Study product performance and seasonal patterns.
-   - Detect relationships between `Item Visibility` and `Sales`.
-
-4. **Dashboard Creation (Power BI)**
-   - KPIs: Total Sales, Avg Rating, Item Count.
-   - Filters for location, outlet type, and year.
-   - Visuals: bar charts, line graphs, pie charts, and heatmaps.
-
----
-
-## 📈 Insights Generated
-- **Supermarket Type1** outlets contribute the majority of sales.
-- Products with **Low Fat** tags have slightly higher sales volume.
-- **Tier 3** locations show the highest revenue performance.
-- Certain items with low visibility but high sales could be promoted further.
-
----
-
-## 🚀 How to Run
-1. Clone this repository.
-2. Load SQL scripts from `/sql` into your database.
-3. Run Python notebooks in `/notebooks` for preprocessing and EDA.
-4. Open the Power BI file in `/dashboards` to explore visualizations.
-
----
-
-## 📌 Deliverables
-- Cleaned dataset
-- SQL queries for transformation
-- Python EDA scripts
-- Interactive Power BI dashboard
-
----
-
-## 🧑‍💻 Author
-Anurag Baveja 
+```sql
+DROP TABLE IF EXISTS blinkit_sales;
+CREATE TABLE blinkit_sales
+(
+    item_id           INT,
+    item_name         VARCHAR(255),
+    item_type         VARCHAR(100),
+    item_price        NUMERIC(10,2),
+    item_fat_content  VARCHAR(50),
+    outlet_id         VARCHAR(20),
+    outlet_est_year   INT,
+    outlet_size       VARCHAR(50),
+    outlet_location   VARCHAR(50),
+    outlet_type       VARCHAR(100),
+    item_outlet_sales NUMERIC(10,2)
+);
