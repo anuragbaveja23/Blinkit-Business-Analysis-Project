@@ -1,16 +1,45 @@
-# BlinkIT Grocery Sales Data Analysis using SQL & Power BI 
----
-## 📌 Objective
+# 🛒 BlinkIT Grocery Sales Analysis
 
-This project analyzes BlinkIT’s grocery sales data to uncover business insights using SQL for data querying and Power BI for visualization.  
+## 🎯 Objective
+Analyze BlinkIT grocery sales data using **SQL** & **Power BI** to identify:
+- Top-selling products & revenue leaders  
+- Sales trends by category, city, and outlet type  
+- Pricing patterns & outlet performance  
 
-Key goals:
-- Analyze sales performance across product categories.
-- Identify top-selling products and highest revenue generators.
-- Understand pricing trends and customer purchase behavior.
-- Visualize findings through an interactive dashboard.
+## 📊 Dataset
+- **CSV:** BlinkIT Grocery Data.csv (~8.5K records)  
+- **SQL:** blinkit_data.sql  
+- **PBIX:** Blinkit_Analysis.pbix  
+Contains product details, outlet info, and sales data.
 
----
+## 📈 Dashboard Highlights
+- **Sales Overview** – Revenue, top categories, outlet performance  
+- **Product Insights** – Top sellers, price trends  
+- **Geographic Trends** – City tier sales  
+- **Time Analysis** – Sales by outlet establishment year  
+
+**Preview:**  
+
+![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss.png)
+
+![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss1.png)
+
+## 🔍 Key Insights
+- Beverages & Snack Foods lead in revenue  
+- Tier 3 cities generate high sales  
+- Older outlets have steady but slow growth  
+- Pricing impacts category sales distribution  
+
+## 🛠 Tech Stack
+SQL • Power BI • CSV
+
+## 👤 Author - Anurag Baveja
+
+
+
+
+
+
 
 
 ## Power BI Dashboard Preview
@@ -24,59 +53,5 @@ The Power BI dashboard provides:
 
 
 ---
-![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss.png)
-
-![Netflix Logo](https://github.com/anuragbaveja23/Blinkit-Business-Analysis-Project/blob/main/images/ss1.png)
-
-## 📊 Dataset
-
-The data for this project comes from BlinkIT Grocery Sales records.  
-
-- **Dataset File:** `BlinkIT Grocery Data.csv`
-- **SQL File:** `blinkit_data.sql`
-- **Dashboard File:** `Blinkit_Analysis.pbix`
-- **Size:** ~8,500 sales records
-
----
-
-## 🗄️ Schema Overview
-
-The dataset contains details about:
-- **Product Information:** Name, type, price, fat content.
-- **Outlet Information:** ID, establishment year, size, location, and type.
-- **Sales Data:** Outlet-wise sales figures.
-
----
-
-## 🔍 Business Problems Addressed
-
-1. Total revenue generated across all products.
-2. Top-selling products and their contribution to total sales.
-3. Sales distribution by product category.
-4. Average product pricing per category.
-5. Best-performing outlets by total revenue.
-6. Sales performance trends based on outlet establishment year.
-7. Sales comparison across different city tiers.
 
 
----
-
-## 📌 Key Findings
-
-- **Beverages** and **Snack Foods** dominate both sales volume and revenue.
-- Outlets in **Tier 3 cities** outperform expectations in revenue generation.
-- Older outlets (pre-2000) maintain stable sales but lack growth momentum.
-- Price variations across categories significantly impact sales distribution.
-
----
-
-## 🛠️ Technologies Used
-
-- **SQL** – Data extraction and analysis.
-- **Power BI** – Interactive dashboard creation.
-- **CSV** – Raw data format.
-
----
-
-## 👤 Author
-**Anurag Baveja** 
