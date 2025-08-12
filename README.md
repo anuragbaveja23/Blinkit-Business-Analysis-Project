@@ -1,4 +1,6 @@
-# BlinkIT Grocery Sales Data Analysis using SQL & Power BI
+# BlinkIT Grocery Sales Data Analysis using SQL & Power BI 
+
+---
 
 ## 📌 Objective
 
